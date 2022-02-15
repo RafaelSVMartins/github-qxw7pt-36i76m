@@ -21,7 +21,7 @@ export default function Invoices() {
           </Link>
         ))}
       </nav>
-      <Outlet/>    
+      <Outlet />    
     </div>
   );
 }
