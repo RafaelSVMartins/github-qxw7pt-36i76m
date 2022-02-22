@@ -2,6 +2,7 @@ import { NavLink,
   Outlet,
   useSearchParams } from 'react-router-dom';
 import { getInvoices } from '../data';
+import QueryNavLink from '../App';
 
 export default function Invoices() {
   let invoices = getInvoices();
